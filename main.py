@@ -38,7 +38,7 @@ def main():
     X_train, X_test, y_train, y_test = DataSplit(X,y)
     y_pred=SVM_train_predict(X_train, X_test, y_train)
     
-    #np.set_printoptions(precision=2)
+    np.set_printoptions(precision=2)
 
     # Plot non-normalized confusion matrix
     plot_confusion_matrix(y_test, y_pred, classes=class_names,title='Confusion matrix, without normalization')
