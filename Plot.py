@@ -1,10 +1,6 @@
-#from sklearn.datasets import load_digits
 import numpy as np
 import pandas as pd
-from sklearn.svm import SVC
-from sklearn import datasets
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
 from sklearn.utils.multiclass import unique_labels
 from sklearn.metrics import classification_report, confusion_matrix
 
