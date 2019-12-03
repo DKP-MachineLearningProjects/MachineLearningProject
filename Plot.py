@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+#import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.utils.multiclass import unique_labels
 from sklearn.metrics import classification_report, confusion_matrix
@@ -51,4 +51,3 @@ def plot_confusion_matrix(y_true, y_pred, classes,normalize=False, title=None, c
                     color="white" if cm[i, j] > thresh else "black")
     fig.tight_layout()
     return ax
-
